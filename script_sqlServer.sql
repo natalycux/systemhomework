@@ -1,14 +1,14 @@
 --CREATE DABASE ON MSSQL SERVER 2022
-CREATE DATABASE [BANKING]
-GO
+CREATE DATABASE [BANKING] --create a data base called BANKING--
+GO --“GO” indicates the end of a script block and forces its immediate execution.--
 
 
 --USE DATABASE
-USE [BANKING]
+USE [BANKING] --Indicates which database is to be used--
 
 --CREATE TABLES
 --CREATE TABLE CENTRAL BANK
-CREATE TABLE CENTRALS
+CREATE TABLE CENTRALS --Creates
 (
     id_central INT PRIMARY KEY IDENTITY(1,1),
     name_central NVARCHAR(100) NOT NULL,
